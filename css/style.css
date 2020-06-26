@@ -1,0 +1,195 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  color: #4d3e3e;
+}
+
+p {
+  color: grey;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: gold;
+  color: #4d3e3e;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+}
+
+
+/* Buttons */
+
+.btn1 {
+  border-color: #4d3e3e;
+  color: #4d3e3e;
+  margin: 5% 3% 5% 0;
+
+}
+
+.btn1:hover {
+  background-color: #4d3e3e;
+  border-color: #4d3e3e;
+  color: #dddddd;
+
+}
+
+.btn2 {
+  border-color: #4d3e3e;
+  color: #4d3e3e;
+}
+
+.btn2:hover {
+  background-color: #4d3e3e;
+  border-color: #4d3e3e;
+  color: #dddddd;
+}
+
+
+/* title-image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-top: 1.8rem;
+  position: absolute;
+  right: 30%;
+}
+
+/* **************************************************************** */
+
+/* Fetures Section */
+
+#features {
+  padding: 7% 14%;
+  background-color: white;
+  position: relative;
+
+}
+
+.feature-box {
+  padding-bottom: 1.5rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.icon {
+  color: gold;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #4d3e3e;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: gold;
+}
+
+/* Testimonial-Image-Section */
+
+.testimonial-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* Press-section */
+
+#press {
+  background-color: gold;
+  padding-bottom: 3.5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing-Section */
+
+#pricing {
+  padding: 100px;
+  background-color: white;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1090px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call To Action */
+
+#cta {
+  padding: 4rem;
+  background-color: gold;
+}
+
+
+/* Footer */
+
+#footer {
+  padding: 5% 10% 3%;
+  background-color: white;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #4d3e3e;
+}
